@@ -1,0 +1,22 @@
+{
+    "settings": {
+        "default_compression": true,
+        "default_user": "fuzzy",
+        "default_fhost": "localhost",
+        "default_rport": 22
+    },
+    "tunnels": {
+        "tunnel1": {
+            "rhost": "ssh.host.fr",
+            "localport": 2222,
+            "fhost": "localhost",
+            "fport": 3128
+        },
+        "tunnel2": {
+            "rhost": "ssh.another.org",
+            "localport": 4444,
+            "fhost": "localhost",
+            "fport": 3128
+        }
+    }
+}
